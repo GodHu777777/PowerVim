@@ -1,23 +1,3 @@
-# [English Version](./docs/README-en.md)
-
-# PowerVim
-
-这套vim配置我已经打磨了将近四年，不断调整优化，已经可以完全满足工业级打开的需求了。所以我给它起名为PowerVim，一个真正强大的vim。
-
-```
-  _____                    __      ___           
-  |  __ \                   \ \    / (_)          
-  | |__) |____      _____ _ _\ \  / / _ _ __ ___  
-  |  ___/ _ \ \ /\ / / _ \ '__\ \/ / | | '_ ` _ \ 
-  | |  | (_) \ V  V /  __/ |   \  /  | | | | | | | 
-  |_|   \___/ \_/\_/ \___|_|    \/   |_|_| |_| |_|
-```
-# 预览
-
-来感受一下PowerVim的使用体验，看起来很酷吧！注意这些操作都不用鼠标的，一波键盘控制流！所以我平时写代码是不碰鼠标的！
-
-![conv_ops](https://github.com/youngyangyang04/Documents/blob/master/vim/vim_overview.gif)
-
 # 安装
 
 PowerVim的安装非常简单，我已经写好了安装脚本，只要执行以下就可以安装，而且不会影响你之前的vim配置，之前的配置都给做了备份，大家看一下脚本就知道备份在哪里了。
@@ -30,6 +10,11 @@ cd PowerVim
 bash install.sh
 ```
 
+安装ctags插件
+
+```bash
+sudo yum install ctags
+```
 
 在按照的过程中 ubuntu 操作系统 会出现 这样的问题`Syntax error: "(" unexpected`，是系统语言问题，看本项目上方issue，已经给出解决办法
 
